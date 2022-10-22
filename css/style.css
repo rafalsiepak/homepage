@@ -72,8 +72,8 @@ html, body {
 }
 
 .table__tableHeader {
-    background-color: rgba(49, 49, 255, 0.486);
-    color: white;
+    background-color: hsla(60, 56%, 91%, 0.498);
+    color: black;
     font-weight: normal;
 }
 
