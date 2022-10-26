@@ -3,4 +3,4 @@
 
 https://rafalsiepak.github.io/homepage/
 
-### Website is using CSS BEM, HTML frameworks and JavaScript ES6+. 
+* Website is using CSS BEM, HTML frameworks and JavaScript ES6+. 
