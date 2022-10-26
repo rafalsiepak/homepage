@@ -5,5 +5,5 @@ https://rafalsiepak.github.io/homepage/
 
 ### Website is using features from the following technologies:
 - CSS BEM framework, 
-- FlexBox  
+- FlexBox,
 - JavaScript ES6+ 
