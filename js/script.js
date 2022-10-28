@@ -1,24 +1,35 @@
 
+{
 
-let press = document.querySelector(".js-press")
-
-let header__subHeader = document.querySelector(".header__subHeader")
-
-press.addEventListener("click", () => {
-    header__subHeader.classList.toggle("header__subHeaderSpecial");
-
-});
-
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".js-themeName")
-
-button.addEventListener("click", () => {
-    body.classList.toggle("js-dark");
-
-    if (body.classList.contains("js-dark")) {
-        themeName.innerText = "jasny";
-    } else {
-        themeName.innerText = "ciemny";
+    const welcome = () => {
+        console.log("Witam serdecznie wszystkich!");
     }
-});
+
+    const onChangeHeaderClick = () => {
+        let header__subHeader = document.querySelector(".header__subHeader")
+        header__subHeader.classList.toggle("header__subHeaderSpecial")
+
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("js-dark");
+
+        if (body.classList.contains("js-dark")) {
+            themeName.innerText = "jasny";
+        } else {
+            themeName.innerText = "ciemny";
+        }
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", onChangeBackgroundClick);
+        const press = document.querySelector(".js-press");
+        press.addEventListener("click", onChangeHeaderClick);
+        welcome();
+
+    };
+
+    init();
+
+}
