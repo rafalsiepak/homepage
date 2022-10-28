@@ -1,0 +1,22 @@
+.header {
+    color: #ff0000;
+    margin: 20px;
+}
+
+.header__subHeader {
+    color: white;
+    padding: 40px;
+    margin: 20px;
+    background-color: black;
+}
+
+.header__subHeaderSpecial {
+    color: red;
+    background-color: black;
+
+}
+
+
+.header__image {
+    margin-left: 30px;
+}

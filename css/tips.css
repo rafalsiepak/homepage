@@ -1,0 +1,5 @@
+.tips__container {
+    overflow-x: auto;
+    align-items: center;
+    margin-left: 30px;
+}

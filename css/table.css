@@ -1,0 +1,28 @@
+
+.table__tableCell {
+    border: 1px solid #ccc;
+    border-width: 0 0 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.table__tableHeader {
+    background-color: hsla(60, 56%, 91%, 0.498);
+    color: black;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #eee;
+}
