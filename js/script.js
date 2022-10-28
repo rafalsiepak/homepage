@@ -6,8 +6,8 @@
     }
 
     const onChangeHeaderClick = () => {
-        let header__subHeader = document.querySelector(".header__subHeader")
-        header__subHeader.classList.toggle("header__subHeaderSpecial")
+        const header__subHeader = document.querySelector(".header__subHeader");
+        header__subHeader.classList.toggle("header__subHeaderSpecial");
 
     const onChangeBackgroundClick = () => {
         const body = document.querySelector(".body");
@@ -32,4 +32,4 @@
 
     init();
 
-}
+};
