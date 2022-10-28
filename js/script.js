@@ -1,15 +1,15 @@
 
-{
 
+{
     const welcome = () => {
         console.log("Witam serdecznie wszystkich!");
     }
 
-    const onChangeHeaderClick = () => {
+    const toggleHeader = () => {
         let header__subHeader = document.querySelector(".header__subHeader")
         header__subHeader.classList.toggle("header__subHeaderSpecial")
 
-    const onChangeBackgroundClick = () => {
+    const toggleBackground = () => {
         const body = document.querySelector(".body");
         const themeName = document.querySelector(".js-themeName");
         body.classList.toggle("js-dark");
@@ -23,9 +23,9 @@
 
     const init = () => {
         const button = document.querySelector(".js-button");
-        button.addEventListener("click", onChangeBackgroundClick);
+        button.addEventListener("click", toggleBackground);
         const press = document.querySelector(".js-press");
-        press.addEventListener("click", onChangeHeaderClick);
+        press.addEventListener("click", toggleHeader);
         welcome();
 
     };

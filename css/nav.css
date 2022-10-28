@@ -1,0 +1,21 @@
+.nav__unorderedlink--link {
+    float: left; 
+    padding: 10px;
+    
+}
+
+.nav__unorderedlink--link:hover {
+    color: blue;
+}
+
+.nav__unorderedLink {
+    list-style: none;
+    padding: 40px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 20px;
+}
+
+.nav__elementMenu {
+    font-family: 'Raleway', sans-serif;
+}
